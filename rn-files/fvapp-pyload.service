@@ -1,0 +1,14 @@
+[Unit]
+Description=pyload application instance
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /apps/pyload/bin/pyLoadCore.py --configdir=/apps/pyload/config
+Restart=on-failure
+Nice=18
+User=admin
+Group=admin
+
+[Install]
+WantedBy=multi-user.target

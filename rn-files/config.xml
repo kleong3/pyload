@@ -1,0 +1,13 @@
+<Application resource-id="pyload"><!-- 'resource-id' must be AppName -->
+  <Name>pyload</Name>
+  <Author>kleong3</Author>
+  <Version>0.4.9</Version>
+  <RequireReboot>0</RequireReboot>
+  <ConfigURL/>
+  <LaunchURL>http://localhost:8001/</LaunchURL>
+  <ReservePort>8001</ReservePort>
+  <InfoURL>http://pyload.net</InfoURL>
+  <DebianPackage>pyload</DebianPackage>
+  <ServiceName>fvapp-pyload.service</ServiceName>
+  <Description lang="en-us">Customizable download manager.</Description>
+</Application>
