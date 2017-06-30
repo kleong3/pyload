@@ -1,0 +1,4 @@
+pyload: non-standard-toplevel-dir apps/
+pyload: file-in-unusual-dir apps/pyload/*
+pyload: script-not-executable apps/pyload/*
+pyload: executable-not-elf-or-script apps/pyload/*

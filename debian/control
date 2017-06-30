@@ -1,0 +1,12 @@
+Source: pyload
+Section: network
+Priority: extra
+Maintainer: kleong3 <leong3@purdue.edu>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.6
+Homepage: https://pyload.net
+
+Package: pyload
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, readynasos (>= 6.1.0), python, git, python-pycurl
+Description: download manager
