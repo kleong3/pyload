@@ -3,3 +3,5 @@ Free and Open Source download manager written in Python and designed to be extre
 https://pyload.net/
 
 THIS ONE WORKS
+
+Based off this branch: https://github.com/nextcloud/server/tree/stable12
